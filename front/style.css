@@ -1,0 +1,39 @@
+#nav-bar {
+    background-color: rgb(114, 176, 230);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+body{
+    background-image: url(Animated\ Shape.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+      }
+    
+    body {
+        margin: 0;
+        height: 64vh;
+        font-family: 'Inter', sans-serif;
+        padding-top: 15rem;
+    }
+
+    h1{
+        color: rgb(18, 226, 157);
+        padding-left: 18%;
+        
+    }
+
+h2{
+    padding-left: 43%;
+    font-size: 155%;
+}
+

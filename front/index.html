@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <h2 id="nav-bar-logo">Agenda</h2>
+          <div id="nav-bar-container">
+          </div>
+    </nav>
+    <h1 class="text-center">Lista de Contactos<h1>
+        <br />
+      <div class="form-inline">
+              Nombre: <input placeholder="Nombre..." class="form-control" id="inputName" />
+              Email: <input placeholder="Correo Electronico..." class="form-control" id="inputEmail" />
+              Telefono: <input placeholder="Número Telefonico..." class="form-control" id="inputPhone" />
+              <div id="submitButtons"><button type="button" class="agregarbut" onclick="addNewContact()">Agregar</button></div>
+          </div>
+          <table id="displayContacts" class="table"></table>
+    <script src="agenda.js"></script>
+</body>
+</html>
